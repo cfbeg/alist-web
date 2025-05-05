@@ -23,7 +23,7 @@ const SwitchColorMode = () => {
       boxSize={icon().size}
       as={icon().component}
       onClick={toggleColorMode}
-      color={'red'}
+      color={"red"}
       p={icon().p}
     />
   )

@@ -55,13 +55,7 @@ const SSOLogin = () => {
         icon = FiLogIn
     }
     return (
-      <Icon
-        cursor="pointer"
-        boxSize="$8"
-        as={icon}
-        p="$0_5"
-        onclick={login}
-      />
+      <Icon cursor="pointer" boxSize="$8" as={icon} p="$0_5" onclick={login} />
     )
   }
 }

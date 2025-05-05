@@ -57,7 +57,6 @@ const SSOLogin = () => {
     return (
       <Icon
         cursor="pointer"
-        color={"red"}
         boxSize="$8"
         as={icon}
         p="$0_5"

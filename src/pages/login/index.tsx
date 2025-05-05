@@ -350,7 +350,6 @@ const Login = () => {
           <SSOLogin />
           <Show when={AuthnSignEnabled}>
             <Icon
-              color={getMainColor()}
               cursor="pointer"
               boxSize="$8"
               as={IoFingerPrint}

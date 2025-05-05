@@ -6,7 +6,10 @@ cat package.json
 
 # build
 pnpm install
-pnpm i18n:release
+wget https://crowdin.com/backend/download/project/alist/ja.zip
+unzip ja.zip
+node ./scripts/i18n.mjs 
+rm ja.zip
 pnpm build
 cp -r dist ../
 cd ..
